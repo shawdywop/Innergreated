@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#080706">
+  <meta name="description" content="INNERGREATED — music formed from the source within.">
+  <title>INNERGREATED — The Source Within</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=DM+Mono:wght@300;400;500&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='8' fill='%23080706'/%3E%3Ccircle cx='32' cy='32' r='18' fill='none' stroke='%23d03a29' stroke-width='3'/%3E%3Ccircle cx='32' cy='32' r='7' fill='%23d03a29'/%3E%3Cpath d='M32 5v10M32 49v10M5 32h10M49 32h10' stroke='%23f3eee5' stroke-width='2'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#music">Skip to music</a>
+
+  <header class="site-header" id="top">
+    <a class="brand" href="#top" aria-label="INNERGREATED home">INNERGREATED<span class="brand-mark">●</span></a>
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav">Menu</button>
+    <nav id="site-nav" aria-label="Main navigation">
+      <a href="#music">Music</a>
+      <a href="#source">Source</a>
+      <a href="#inner-circle">Connect</a>
+      <a class="nav-cta" href="#music">Enter the sound</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" aria-labelledby="hero-title">
+      <img class="hero-image" src="./assets/inner-sun.jpg" alt="A dark sun above a watchful stag in a concrete landscape">
+      <div class="hero-wash"></div>
+      <p class="hero-index" aria-hidden="true">001 / THE SOURCE WITHIN</p>
+      <div class="hero-copy">
+        <p class="eyebrow">INNERGREATED PRESENTS</p>
+        <h1 id="hero-title">FROM PRESSURE<br><span>INTO SOUND.</span></h1>
+        <p class="hero-line">Hidden fire made audible.</p>
+        <a class="primary-button" href="#music">Enter the music <span aria-hidden="true">↓</span></a>
+      </div>
+      <p class="vertical-word" aria-hidden="true">SOURCE</p>
+    </section>
+
+    <section class="music-section" id="music" aria-labelledby="music-title">
+      <div class="section-heading">
+        <p class="kicker">CURRENT TRANSMISSION</p>
+        <h2 id="music-title">THE MUSIC<br>COMES FIRST.</h2>
+        <p>Every name points back to the same source. The sound reveals the rest.</p>
+      </div>
+
+      <article class="release-card">
+        <div class="cover-art" aria-label="Temporary release artwork">
+          <span class="cover-orbit"></span>
+          <span class="cover-core"></span>
+          <p>INNERGREATED</p>
+          <strong>FIRST SIGNAL</strong>
+        </div>
+        <div class="release-copy">
+          <p class="status"><span></span> IN TRANSMISSION</p>
+          <h3>First Release</h3>
+          <p class="release-note">The first entry into the world of INNERGREATED. Release details will appear here when the signal is ready.</p>
+          <div class="player" aria-label="Music preview coming soon">
+            <button type="button" disabled aria-label="Preview not available yet">▶</button>
+            <div class="track-line"><span></span></div>
+            <time>00:00</time>
+          </div>
+          <div class="platforms" aria-label="Streaming services coming soon">
+            <span>Spotify</span><span>Apple Music</span><span>YouTube</span><span>Direct</span>
+          </div>
+          <p class="microcopy">Streaming and direct access activate with the first release.</p>
+        </div>
+      </article>
+    </section>
+
+    <section class="source-section" id="source" aria-labelledby="source-title">
+      <div class="source-intro">
+        <p class="kicker">BENEATH THE SOUND</p>
+        <h2 id="source-title">THE SOUND IS<br>ONLY THE SURFACE.</h2>
+      </div>
+      <div class="identity-grid">
+        <article>
+          <p>01 / SOUL</p>
+          <h3>INNER FIRE</h3>
+          <strong>The Source Within</strong>
+          <span>Pressure becomes power. Darkness becomes direction. Inner fire becomes lasting influence.</span>
+        </article>
+        <article>
+          <p>02 / BODY + SPIRIT</p>
+          <h3>EMBODIED MOTION</h3>
+          <strong>Instinct Guided by Purpose</strong>
+          <span>Heart, instinct and movement carry the inner vision into courageous action.</span>
+        </article>
+      </div>
+      <div class="rising-statement">
+        <p>THE JOURNEY</p>
+        <h3>BECOMING</h3>
+        <blockquote>“The hidden source becomes sound. The sound becomes movement. The movement becomes mastery.”</blockquote>
+      </div>
+    </section>
+
+    <section class="circle-section" id="inner-circle" aria-labelledby="circle-title">
+      <p class="kicker">DIRECT FROM THE SOURCE</p>
+      <h2 id="circle-title">JOIN THE<br>INNER CIRCLE.</h2>
+      <p>New music, unreleased signals and visual transmissions—without the algorithm between us.</p>
+      <form class="signup-form" id="signup-form">
+        <label class="sr-only" for="email">Email address</label>
+        <input id="email" name="email" type="email" autocomplete="email" placeholder="YOUR EMAIL" required>
+        <button type="submit">Enter the circle</button>
+      </form>
+      <p class="form-note" id="form-note">The list opens with the first release. No noise. Leave anytime.</p>
+    </section>
+  </main>
+
+  <footer>
+    <a class="brand footer-brand" href="#top">INNERGREATED<span class="brand-mark">●</span></a>
+    <p>Music from the source within.</p>
+    <p>© <span id="year"></span> INNERGREATED</p>
+  </footer>
+
+  <script src="./script.js"></script>
+</body>
+</html>
